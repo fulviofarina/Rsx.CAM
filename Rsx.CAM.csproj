@@ -49,40 +49,50 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Canberra.DSA3K.DataTypes">
-      <HintPath>..\..\lib\Linx\Canberra.DSA3K.DataTypes.dll</HintPath>
+    <Reference Include="Canberra.DSA3K.DataTypes, Version=1.1.1.77, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Canberra.DSA3K.DataTypes.dll</HintPath>
     </Reference>
-    <Reference Include="Canberra.Errors">
-      <HintPath>..\..\lib\Linx\Canberra.Errors.dll</HintPath>
+    <Reference Include="Canberra.Errors, Version=1.1.1.77, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Canberra.Errors.dll</HintPath>
     </Reference>
-    <Reference Include="Canberra.Serialization">
-      <HintPath>..\..\lib\Linx\Canberra.Serialization.dll</HintPath>
+    <Reference Include="Canberra.Serialization, Version=1.1.1.77, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Canberra.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Canberra.Utility.Core">
-      <HintPath>..\..\lib\Linx\Canberra.Utility.Core.dll</HintPath>
+    <Reference Include="Canberra.Utility.Core, Version=1.1.1.77, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Canberra.Utility.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Canberra.Utility.Network">
-      <HintPath>..\..\lib\Linx\Canberra.Utility.Network.dll</HintPath>
+    <Reference Include="Canberra.Utility.Network, Version=1.1.1.77, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Canberra.Utility.Network.dll</HintPath>
     </Reference>
-    <Reference Include="Interop.CAMCONTROLSLib">
-      <HintPath>..\..\lib\Linx\Interop.CAMCONTROLSLib.dll</HintPath>
+    <Reference Include="Interop.CAMCONTROLSLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>.\Interop.CAMCONTROLSLib.dll</HintPath>
     </Reference>
-    <Reference Include="Interop.CAMSRCLib">
-      <HintPath>..\..\lib\Linx\Interop.CAMSRCLib.dll</HintPath>
+    <Reference Include="Interop.CAMSRCLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>.\Interop.CAMSRCLib.dll</HintPath>
     </Reference>
-    <Reference Include="Interop.CanberraDataAccessLib">
-      <HintPath>..\..\lib\Linx\Interop.CanberraDataAccessLib.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
+    <Reference Include="Interop.CanberraDataAccessLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>.\Interop.CanberraDataAccessLib.dll</HintPath>
     </Reference>
-    <Reference Include="Interop.CanberraDeviceAccessLib">
-      <HintPath>..\..\lib\Linx\Interop.CanberraDeviceAccessLib.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
+    <Reference Include="Interop.CanberraDeviceAccessLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>.\Interop.CanberraDeviceAccessLib.dll</HintPath>
     </Reference>
-    <Reference Include="Interop.CanberrCamDlgLib">
-      <HintPath>..\..\lib\Linx\Interop.CanberrCamDlgLib.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
+    <Reference Include="Interop.CanberrCamDlgLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>.\Interop.CanberrCamDlgLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
