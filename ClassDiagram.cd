@@ -21,16 +21,6 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="Rsx.CAM.Linx">
-    <Position X="5.75" Y="0.5" Width="1.5" />
-    <Compartments>
-      <Compartment Name="Fields" Collapsed="true" />
-    </Compartments>
-    <TypeIdentifier>
-      <HashCode>AAAAAAACAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Lynx.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Interface Name="Rsx.CAM.IDetectorX">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
