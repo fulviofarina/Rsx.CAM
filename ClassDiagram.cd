@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Rsx.CAM.CamFileReader">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAAgAAAEAACQACAEAAAAAAQAAAAAABAAEFAIAAAQQg=</HashCode>
+      <FileName>CamFileReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rsx.CAM.DetectorX" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QEwLAIhMAWApQAAIYQAAAgAAEhEBAHARoDDBS0XQAQM=</HashCode>
+      <FileName>Detector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Rsx.CAM.Linx">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lynx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Rsx.CAM.IDetectorX">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwBAIhAAGAgAAAAAQAAAgAAEAEAACAQICBBS0VQAAA=</HashCode>
+      <FileName>Detector.Interface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9.29" />
+</ClassDiagram>
