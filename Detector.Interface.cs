@@ -2,58 +2,66 @@
 
 namespace Rsx.CAM
 {
-  public interface IDetectorX
-  {
-    bool Acquiring { get; set; }
-    double Area { get; set; }
-    double AreaUnc { get; set; }
+    public interface IDetectorX
+    {
+        bool Acquiring { get; set; }
+        double Area { get; set; }
+        double AreaUnc { get; set; }
 
-    void Clear();
+        bool Controlled { get; set; }
 
-    bool Controlled { get; set; }
-    double CountTime { get; set; }
-    string DetectorCodeName { get; set; }
+        double CountTime { get; set; }
 
-    void Dispose();
+        string Description1 { get; set; }
 
-    decimal DT { get; set; }
-    SystemException Exception { get; set; }
+        string Description2 { get; set; }
 
-    bool GetROI(double energyStart, double energyEnd, double backCh, double limitUnc);
+        string Description3 { get; set; }
 
-    void GetTimes();
+        string Description4 { get; set; }
 
-    double Integral { get; set; }
+        string DetectorCodeName { get; set; }
 
-    void IsAcquiring();
+        decimal DT { get; set; }
 
-    DateTime LastStart { get; set; }
-    double LiveTime { get; set; }
-    bool Opened { get; set; }
-    double PresetTime { get; set; }
+        SystemException Exception { get; set; }
 
-    bool Save(string measurementPath);
+        double Integral { get; set; }
 
-    string Server { get; set; }
+        System.IO.FileInfo LastFileInfo { get; set; }
 
-    void Start();
+        string LastFileTag { get; set; }
 
-    DateTime StartDate { get; set; }
+        DateTime LastStart { get; set; }
 
-    void Stop();
+        double LiveTime { get; set; }
 
-    double VDMDelay { get; set; }
-    System.IO.FileInfo LastFileInfo { get; set; }
-    string LastFileTag { get; set; }
-    string SampleTitle { get; set; }
-    string User { get; set; }
-    string Description1 { get; set; }
-    string Description2 { get; set; }
-    string Description3 { get; set; }
-    string Description4 { get; set; }
+        bool Opened { get; set; }
 
-    void GetSampleData();
+        double PresetTime { get; set; }
 
-    void SetSampleData(string user, string project, string sample, string measlabel);
-  }
+        string SampleTitle { get; set; }
+
+        string Server { get; set; }
+
+        DateTime StartDate { get; set; }
+
+        string User { get; set; }
+
+        double VDMDelay { get; set; }
+
+        void Clear();
+        void Dispose();
+        bool GetROI(double energyStart, double energyEnd, double backCh, double limitUnc);
+
+        void GetSampleData();
+
+        void GetTimes();
+        void IsAcquiring();
+        bool Save(string measurementPath);
+        void SetSampleData(string user, string project, string sample, string measlabel);
+
+        void Start();
+        void Stop();
+    }
 }
